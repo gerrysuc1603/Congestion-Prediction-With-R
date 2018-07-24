@@ -29,6 +29,7 @@ Untuk mendapatkan data kemacetan sendiri ada beberapa tahap yang harus dilakukan
 - Setelah mendapatkan box koordinat masukan kedalam parameter url, masukin kan url tersebut kedalam variabel fileUrl yang terdapat pada script read.r`
 - Setelah mendapatkan url maka jalankan script read.r untuk mendapatkan data yang dimana data ditarik setiap 2 menit sekali dan akan selesai selama 12 jam, banyaknya interval pengambilan dan lama pengambilan data dapat disesuikan dengan keinginan
 - jika selesai data yang dihasilkan sendiri terdapat 2 jenis yaitu dataframe dan berbentuk file csv
+  <p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/Untitled.png"/></p>
 
 ### Pemodelan
 Pada tahan ini terdapat 2 tahap yaitu :
@@ -48,7 +49,7 @@ Sementara proses pemodelan dilakukan dengan:
   - Fungsi predict(relation,a) sendiri berguna untuk untuk memprediksi dataframe a sesuai dengan model(relasi) yang telah dibuat
   - Hasil prediksi yang didapatkan berupa waktu delay berdasarkan data pada dataframe a
   - Data hasil prediksi dimasukan kedalam dataframe a
-  
+  <p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/dataframe-a(hasil%20prediksi%20delay.png"/></p>
 Setelah pemodelan selesai, data hasil prediksi digabungkan dengan data yang sudah rapi untuk ditampilkan dalam aplikasi Shiny
-
+<p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/shinyapps.png"/></p>
 
