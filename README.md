@@ -30,6 +30,18 @@ Untuk mendapatkan data kemacetan sendiri ada beberapa tahap yang harus dilakukan
 - Setelah mendapatkan box koordinat masukan kedalam parameter url, masukin kan url tersebut kedalam variabel fileUrl yang terdapat pada script read.r`
 - Setelah mendapatkan url maka jalankan script read.r untuk mendapatkan data yang dimana data ditarik setiap 2 menit sekali dan akan selesai selama 12 jam, banyaknya interval pengambilan dan lama pengambilan data dapat disesuikan dengan keinginan
 - jika selesai data yang dihasilkan sendiri terdapat 2 jenis yaitu dataframe dan berbentuk file csv
+- Dataframe yang di dapat terdiri dari 12 kolom yang terdiri dari :
+  - id = merupakan id dari traffic congestion
+  - longitude = longitude terjadinya kemacetan
+  - latitude =  titik latitude terjadinya kemacetan
+  - ic =  merupakan penyebab terjadinya kemacetan
+  - ty = merupakan magnitude dari delay pada suatu kemacetan
+  - d =  descripsi kemacetan
+  - f =  lokasi awal terjadinya kemacetan
+  - t =  lokasi akhir terjadinya kemacetan
+  - l =  panjang kemacetan dalam meter
+  - dl = lama kemacetan dalam detik
+  - r =  nomor jalan yang terpengaruhi kemacetan
  <p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/all.png"/></p>
  
 
