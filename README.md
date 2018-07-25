@@ -9,13 +9,13 @@ Pada repositori ini berisi aplikasi rshiny dan script untuk memprediksi data yan
 - Pilih Git
 - Masukan repository url dan klik ok ( dibutuhkan git terinstal pada komputer )
 - Instal beberapa _package_ yang dibutuhkan berikut:
-  - XML 
-  - dplyr
-  - tidyr 
-  - shiny 
-  - ggmap
-  - shinydashboard
-  - RCurl
+  - XML digunakan untuk membaca xml data yang ditarik darik api url
+  - dplyr digunakan untuk memfilter data pada dataframe
+  - tidyr digunakan untuk memisah kolom contohnya seperti kolom latitude-longitude dipisah menjadi kolom latidude dan kolom longitude   menggunakan function seperate 
+  - shiny digunakan untuk memembuar aplikasi shiny
+  - ggmap digunakan untuk menampilkan peta
+  - shinydashboard digunakan untuk membuat tampilan shiny dashboard
+  - RCurl digunakan untuk mendapatkan url dengan fuction getUrl
 
 ## _Troubleshoot_
 Jika skrip `Read.r` mengalami problem, mungkin karena API sudah tidak dapat diakses makan api key dapat didapat pada https://developer.tomtom.com/
