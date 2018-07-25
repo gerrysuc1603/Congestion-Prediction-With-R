@@ -24,7 +24,8 @@ Jika skrip `Read.r` mengalami problem, mungkin karena API sudah tidak dapat diak
 get api access -> tentukan box koordinat -> Jalankan script read.r untuk mendapatkan data -> jalankan LM.r untuk mendapatkan model -> jalankan shinyApps untuk menjalankan aplikasi
 ### Data Mining
 Untuk mendapatkan data kemacetan sendiri ada beberapa tahap yang harus dilakukan yaitu:
-- mendapatkan akses api dari website tomtom untuk mendapatkan data kemacetan
+- mendapatkan akses api dari website tomtom untuk mendapatkan data kemacetan 
+- dapatkan format url api yang bisa diliat pada https://developer.tomtom.com/online-traffic/online-traffic-documentation-online-traffic-incidents/traffic-incident-details
 - batasi pencaharian kemacetan dengan mendapat koordinat box yang bisa didapatkan pada website http://bboxfinder.com/
 - Setelah mendapatkan box koordinat masukan kedalam parameter url, masukin kan url tersebut kedalam variabel fileUrl yang terdapat pada script read.r`
 - Setelah mendapatkan url maka jalankan script read.r untuk mendapatkan data yang dimana data ditarik setiap 2 menit sekali dan akan selesai selama 12 jam, banyaknya interval pengambilan dan lama pengambilan data dapat disesuikan dengan keinginan
