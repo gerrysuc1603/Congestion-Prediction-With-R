@@ -29,14 +29,16 @@ Untuk mendapatkan data kemacetan sendiri ada beberapa tahap yang harus dilakukan
 - Setelah mendapatkan box koordinat masukan kedalam parameter url, masukin kan url tersebut kedalam variabel fileUrl yang terdapat pada script read.r`
 - Setelah mendapatkan url maka jalankan script read.r untuk mendapatkan data yang dimana data ditarik setiap 2 menit sekali dan akan selesai selama 12 jam, banyaknya interval pengambilan dan lama pengambilan data dapat disesuikan dengan keinginan
 - jika selesai data yang dihasilkan sendiri terdapat 2 jenis yaitu dataframe dan berbentuk file csv
-  <p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/Untitled.png"/></p>
+ 
 
 ### Pemodelan
 Pada tahan ini terdapat 2 tahap yaitu :
 - membuang data yang tidak diperlukan dan merapikan data
 - pemodelan data
 Proses membuang dan merapikan data terdiri dari
-- mengambil data jalan yang spesifik untuk di prediksi contoh kemacetan dari Tangerang [18] sampai Karang Tengah [11], data kemacetan tersebut dimasukan kedalam data frame xy
+- mengambil data jalan yang spesifik untuk di prediksi contoh kemacetan dari Tangerang [18] sampai Karang Tengah [11], data kemacetan
+tersebut dimasukan kedalam data frame xy
+ <p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/Untitled.png"/></p>
 - membuang data yang tidak diperlukan untuk melakukan pemodelan contohnya seperti id, longitude, latitude dan sebagainya
 - membuang row yang tidak valid
 - membuat data frame baru yang berisikan row terakhir dari data frame xy yang sudah dirapikan untuk nantinya akan dipredisik
