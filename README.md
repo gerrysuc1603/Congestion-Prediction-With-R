@@ -47,8 +47,7 @@ tersebut dimasukan kedalam data frame xy
 - selanjutnya menghapus row terakhir pada data frame xy dihapus
 
 Sementara proses pemodelan dilakukan dengan:
-- Membuat model dengan menggunakan fungsi linier regresion lm(dl~.,data = xy) untuk menentukan prediksi kemacetan pada suatu waktu
-  
+- Membuat model dengan menggunakan fungsi linier regresion lm(dl~.,data = xy) untuk menentukan prediksi kemacetan pada suatu waktu delay bedasarkan dataframe xy.  
 - Melakukan prediksi dengan fungsi predict()
   - Fungsi predict(relation,a) sendiri berguna untuk untuk memprediksi dataframe a sesuai dengan model(relasi) yang telah dibuat
   - Hasil prediksi yang didapatkan berupa waktu delay berdasarkan data pada dataframe a yang berisikan row trakhir pada data frame xy
