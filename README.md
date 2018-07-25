@@ -51,9 +51,9 @@ Sementara proses pemodelan dilakukan dengan:
   
 - Melakukan prediksi dengan fungsi predict()
   - Fungsi predict(relation,a) sendiri berguna untuk untuk memprediksi dataframe a sesuai dengan model(relasi) yang telah dibuat
-  - Hasil prediksi yang didapatkan berupa waktu delay berdasarkan data pada dataframe a
+  - Hasil prediksi yang didapatkan berupa waktu delay berdasarkan data pada dataframe a yang berisikan row trakhir pada data frame xy
   - Data hasil prediksi dimasukan kedalam dataframe a
   <p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/dataframe-a(hasil%20prediksi%20delay.png"/></p>
-Setelah pemodelan selesai, data hasil prediksi digabungkan dengan data yang sudah rapi untuk ditampilkan dalam aplikasi Shiny
+Setelah pemodelan selesai, data hasil prediksi ditampilkan ke dalam aplikasi shiny
 <p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/shinyapps.png"/></p>
 
