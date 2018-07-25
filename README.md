@@ -42,6 +42,7 @@ Untuk mendapatkan data kemacetan sendiri ada beberapa tahap yang harus dilakukan
   - l =  panjang kemacetan dalam meter
   - dl = lama kemacetan dalam detik
   - r =  nomor jalan yang terpengaruhi kemacetan
+  - Time =  waktu terjadinya kemacetan
  <p align="center"><img src="https://github.com/gerrysuc1603/Congestion-Prediction-With-R/blob/master/image/all.png"/></p>
  
 
